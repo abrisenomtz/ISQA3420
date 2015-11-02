@@ -23,6 +23,8 @@
 9. Notes:
 
 
+
+
 1. Title: Determine License and Vulnerability Information
 2. Primary Actor: Corporate Manager
 3. Goal in Context: The corporate manager is able to detemine license and vulnerability information from provided project information. 
