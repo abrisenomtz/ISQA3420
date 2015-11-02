@@ -1,25 +1,14 @@
-1. Title: Manage CPE Information (Daily Job)
+1. Title: Check In Code
 2. Primary Actor: Corporate Developer
-3. Goal in Context: Take in NIST CPE Information and run it through the national vulnerability database.
+3. Goal in Context: The corporate developer is able to successfully take in Open Source code from the database for possible use.
 4. Stakeholders and Interests:
-	1. Committer:
-		1. 
-	2. Upstream Maintainers:
-	  1.
-		2.
-		3.
-  3. Consumers of upstream source:
-		1.
-		2.
-		3.
+	-Corporate Developer: To successfully retain open source code from the SPDX database.
 5. Preconditions:
-		1.
-6. Main Success Scenario:
-7. Failed End Conditions:
-	1.
-	2.
-8. Trigger:
-	1.
+		1. Project information or request has been provided.
+		2. The SPDX Database is available, and the file, or files in context are available.
+6. Main Success Scenario: The Developer successfully receives the code from the database and is able to utilize it for further use.
+7. Failed End Conditions: The Developer does not locate, or receive the requested code from the SPDX database.
+8. Trigger: A project request is made that requires code to perform a specific task. Relevant code then needs to be located.
 9. Notes:
 
 
@@ -27,7 +16,7 @@
 
 1. Title: Determine License and Vulnerability Information
 2. Primary Actor: Corporate Manager
-3. Goal in Context: The corporate manager is able to detemine license and vulnerability information from provided project information. 
+3. Goal in Context: The corporate manager is able to determine license and vulnerability information from provided project information. 
 4. Stakeholders:
  -Corporate Manager: To receive clear and relevant project information.
 -Corporate Developer: To provide the relevant file/package level information. 
@@ -42,26 +31,17 @@
 
 
 
-1. Title: Manage Project Information
-2. Primary Actor: Corporate Developer
-3. Goal in Context: To add file information pulled from the SPDX database into a project model for the Corporate Manager.
-4. Stakeholders and Interests:
-  1. Committer:
-    1. 
-  2. Upstream Maintainers:
-    1.
-    2.
-    3.
-  3. Consumers of upstream source:
-    1.
-    2.
-    3.
+1. Title: Check policy against Project Model
+2. Primary Actor: Corporate Manager
+3. Goal in Context: The Corporate Manager is able to successfully check project information against the policy guidelines of the company. 
+4. Stakeholders and Interests: 
+ - Corporate Manager: To receive project information that properly meets policy guidelines.
+ - Corporate Developer: To receive a successful compliance report of submitted code.
 5. Preconditions:
-  1.
-6. Main Success Scenario:
-7. Failed End Conditions:
-  1.
-  2.
-8. Trigger:
-  1.
+ - Proper project information is provided.
+ - Provided access to the Corporate Policy Database.
+ - Able to receive proper policy guidelines for related requests.
+6. Main Success Scenario: The Corporate Manager is able to successfully retrieve the proper policy information, and compare it to the project information that was provided.
+7. Failed End Conditions: The Corporate Manager is not able to retrieve correct policy information from the database, or make relevant comparisons between the two.
+8. Trigger: Project information is provided to the Corporate Manager in order to test compliance, where policy is then compared to information provided.
 9. Notes:
