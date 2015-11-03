@@ -1,36 +1,39 @@
-the DFD Dictionary will be here. 
+Data Flow Diagram Dictionary
 
 Entities
 
-    1) Corporate Developer - The developers who will be pulling source code from external locations. 
-    This can include public and private repositories as well as software received via supply chains.
+    1) Corporate Developer - The developers is in charge of  check in source code into the system via 
+    files or packages.This code could be open source code from external locations that can include public 
+    and private repositories as well as software received via supply chains
     
     2) Corporate Managers - Internal corporate individuals who will be the recipients of the Project 
-    Model or any other software manifests. From these documents, they can make impactful decisions. 
+    Model or any other software manifests. From these documents, they can make impactful decisions
     
-    3) National Vulnerability Database - External repository of package vulnerability information.
+    3) National Vulnerability Database - External repository that contains vulnerability information about
+    ceratin packages of source code.
 
 Processes
 
-    1) Manage Code Streams - For facilitating the travel of data throughout other various processes and 
+    1) Manage Code Streams - Facilitates the travel of data throughout other various processes and 
     entities in the Data Flow Diagram
     
-    2) Version Control / Build System - For version control and organization of the various packages or 
+    2) Version Control / Build System -  Version control and organize of the various packages or 
     files within the project
     
-    3) License Scanner - For finding license information about a given file or package
+    3) License Scanner - Finds license information about a given file or package
     
-    4) Manage CPE Information - For finding CPE Information about a given package
+    4) Manage CPE Information - Finds CPE Information about a given package
     
-    5) Update CPE Information - For updating the NIST CPE Information Data Store
+    5) Update CPE Information - Update the NIST CPE Information Data Store, a daily job that obtains 
+    the XML CPE File from NIST Database to a local file
     
-    6) Manage CVE Information - For finding CVE Information about a given package, using its CPE information
+    6) Manage CVE Information - Finds CVE Information about a given package, using its CPE information
     
-    7) Manage Project Information - For corporate managers to manage the project and make impactful decisions 
-    regarding the project as a whole
+    7) Manage Project Information - Manages the project license and vulnerability information. 
+    Corporate managers make impactful decisions utilizing the project information as a whole
     
-    8) Manage Policy Information - For corporate managers to score how compliant the project is with corporate 
-    policy guidelines
+    8) Manage Policy Information - Manages policy guidelines to score how compliant the project is with 
+    corporate guidelines. 
 
 
 Data Flows
