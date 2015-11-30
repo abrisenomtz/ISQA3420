@@ -17,14 +17,14 @@ Processes
     1) Manage Code Streams - Facilitates the travel of data throughout other various processes and 
     entities in the Data Flow Diagram
     
-    2) Version Control / Build System -  Version control and organize of the various packages or 
+    2) Version Control / Build System - Handles version control and organizes the various packages or 
     files within the project
     
     3) License Scanner - Finds license information about a given file or package
     
     4) Manage CPE Information - Finds CPE Information about a given package
     
-    5) Update CPE Information - Update the NIST CPE Information Data Store, a daily job that obtains 
+    5) Update CPE Information - Updates the NIST CPE Information Data Store, a daily job that obtains 
     the XML CPE File from NIST Database to a local file
     
     6) Manage CVE Information - Finds CVE Information about a given package, using its CPE information
@@ -58,7 +58,7 @@ Data Flows
     from FOSSology
 
     8) Package Name - The name of a package for which CPE info needs to be found
-    
+
     9) CPE Info - Relevant CPE naming information about a file or package, from the internal CPE Information 
     data store
     
@@ -69,7 +69,7 @@ Data Flows
     12) Master CPE File - An XML file containing all the CPE information, from the National Vulnerability Database, 
     updated daily
 
-    13) CVE Info - Vulnerability information about a package returned from a given CPE
+    13) CVE Info - Information about the vulnerability of a package returned from a given CPE
 
     14) Policy Compliance Request - A request by a corporate manager to see whether a particular project 
     model fits within defined corporate policy guidenlines
@@ -88,8 +88,8 @@ Data Stores
     1) NIST CPE Information - An internal data store where CPE information is stored for comparison. Updated daily 
     from the National Vulnerability Database
     
-    2) SPDX Database - Database that store information about files within a project. This information is stored via a 
-    SHA1 hash.
+    2) SPDX Database - A database that stores information about files within a project. This information is stored via a 
+    SHA1 hash
     
     3) Corporate Policy Database - Corporate guidelines for acceptable policy which can be set by a policy manager 
     to be used to determine wether a project model is acceptable for use
