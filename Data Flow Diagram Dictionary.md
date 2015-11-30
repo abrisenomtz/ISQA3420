@@ -2,15 +2,15 @@ Data Flow Diagram Dictionary
 
 Entities
 
-    1) Corporate Developer - The developers is in charge of  check in source code into the system via 
-    files or packages.This code could be open source code from external locations that can include public 
+    1) Corporate Developer - Developers are in charge of checking in source code into the system via 
+    files or packages.This code could be open source code from external locations, including public 
     and private repositories as well as software received via supply chains
     
     2) Corporate Managers - Internal corporate individuals who will be the recipients of the Project 
-    Model or any other software manifests. From these documents, they can make impactful decisions
+    Model or any other software manifests. From these documents, they can make impactful decisions about the project as a whole
     
     3) National Vulnerability Database - External repository that contains vulnerability information about
-    ceratin packages of source code.
+    ceratin packages of source code
 
 Processes
 
