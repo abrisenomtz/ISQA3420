@@ -1,1 +1,15 @@
-Our Sample Software Manifest will go here.
+-#Document 
+		DocumentLicense:
+		Author:
+		DateCreated:
+		???
+  
+  
+  
+-#Package
+		Name:
+		SHA1:
+		CPE:
+		Licenses:
+		Vulnerabilities:
+		???
