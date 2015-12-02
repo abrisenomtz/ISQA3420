@@ -12,11 +12,7 @@ Version:
 Description:
 
 Comments:
-  
-  
-  
-  
-  
+
 -#Package
 
 Name:
@@ -31,4 +27,6 @@ Vulnerabilities:
 
 Location:
 
-???
+Description:
+
+Comments:
