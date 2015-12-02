@@ -9,10 +9,6 @@ DateCreated:
 
 Version:
 
-Location:
-
-
-
 ???
   
   
@@ -28,5 +24,7 @@ CPE:
 Licenses:
 
 Vulnerabilities:
+
+Location:
 
 ???
