@@ -1,5 +1,5 @@
 #Final Presentation 
-##ISQA 3420 Managing in Digital World
+##ISQA 3420 Managing in a Digital World
 ### Open Source Code Management
 
     Alexander Ives
