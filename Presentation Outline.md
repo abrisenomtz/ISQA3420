@@ -1,11 +1,17 @@
 #Final Presentation 
 ##ISQA 3420 Managing in a Digital World
-### Open Source Code Management
+## Open Source Code Management
 
     Alexander Ives
     Christopher Kozeny
     Alberto Briseno
   
+
+##Why Open Source?
+
+    - Advantages and Disadvantages
+    - Our approach to manage open source in an organization 
+
 
 ##Data Flow Driagram 
 
@@ -24,9 +30,3 @@
     - Project Policy Check 
       -Primary Actor: Corporate Manage
     
-
-##Slide 3 
-
-Text here 
-
- Text here 
