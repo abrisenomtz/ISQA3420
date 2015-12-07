@@ -42,8 +42,8 @@
 
 	1. Title: Analyze Source Code
 	2. Primary Actor: Corporate Developer
-	3. Goal in Context: The Corporate Developer is able to successfully check package/file information without 
-	storing the information in the SPDX Database. 
+	3. Goal in Context: The Corporate Developer is able to successfully check package/file information with 
+	the information in the SPDX Database. 
 	4. Stakeholders and Interests: 
 		- Corporate Developer: To receive a successful report of submitted source code.
 	5. Preconditions:
