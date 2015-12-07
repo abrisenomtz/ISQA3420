@@ -1,14 +1,28 @@
-#Title 
-##Slide 1
+#Final Presentation 
+##ISQA 3420 Managing in Digital World
+### Open Source Code Management
 
-Text here
-
-Text here
+    Alexander Ives
+    Christopher Kozeny
+    Alberto Briseno
   
-##Slide 2 
-Text here
 
-Text here
+##Data Flow Driagram 
+
+    - This is our DFD
+   
+
+##Use Cases  
+
+    - Check in Code
+      -Primary Actor: Corporate Developer
+    - Determine License and Vulnerability Information
+      -Primary Actor: Corporate Manager
+    - Analyze Source Code
+      -Primary Actor: Corporate Developer
+    - Project Policy Check 
+      -Primary Actor: Corporate Manage
+    
 
 ##Slide 3 
 
