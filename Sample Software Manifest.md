@@ -1,32 +1,18 @@
--#Document 
+-#Document
 
-
-DocumentLicense:
-
-Author:
-
-DateCreated:
-
-Version:
-
-Description:
-
-Comments:
-
+    Document License:
+    Author:
+    Date Created:
+    Version:
+    Description:
+    Comments:
+    
 -#Package
 
-Name:
-
-SHA1:
-
-CPE:
-
-Licenses:
-
-Vulnerabilities:
-
-Location:
-
-Description:
-
-Comments:
+     Name:
+    CPE:
+    Licenses:
+    Vulnerabilities:
+    Location:
+    Description
+    Comments:
