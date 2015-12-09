@@ -30,3 +30,10 @@
     - Project Policy Check 
       -Primary Actor: Corporate Manage
     
+    
+##What we learned? 
+
+    - CJ's Exerpiences
+    - Alex's Experiences 
+    -Alberto's experiences
+  
