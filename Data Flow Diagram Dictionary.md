@@ -33,7 +33,11 @@ Processes
     Corporate managers make impactful decisions utilizing the project information as a whole
     
     8) Manage Policy Information - Manages policy guidelines to score how compliant the project is with 
-    corporate guidelines. 
+    corporate guidelines
+    
+    9) Manage Project Release Information - Manages the transition of a project to an external space for relase
+    
+    10) Upload Changes - Keeps any reciprocal license obligations by uploading modified packages to a publicly accessible space
 
 
 Data Flows
@@ -82,15 +86,28 @@ Data Flows
     
     17) Project File/Info Response - A project model or relevant project information given to a corporate manager
     
+    18) Release Approval - An approval by a project manager to begin the process of moving the project to an external state
+    
+    19) Mark Project Release - A final check over the project and the beginning of the transition to an external state
+    
+    20) Keep Reciprocal License Obligations - An order to corporate developers to keep any obligations in regards to reciprocal 
+    licenses tied to any part of the project
+    
+    21) Submit Modified Package Info - Corporate developers submit any relevant code to a publicly accessible medium, most likely a 
+    website
+    
 
 Data Stores
 
     1) NIST CPE Information - An internal data store where CPE information is stored for comparison. Updated daily 
     from the National Vulnerability Database
     
-    2) SPDX Database - A database that stores information about files within a project. This information is stored via a 
+    2) Internal Code Database - A database that stores information about files within a project. This information is stored via a 
     SHA1 hash
     
     3) Corporate Policy Database - Corporate guidelines for acceptable policy which can be set by a policy manager 
     to be used to determine wether a project model is acceptable for use
+    
+    4) Publicly Accessible Project Information - A medium, most likely a website, accessible by the general public where developers
+    can upload modified package info in order to keep reciprocal license obligations
     
