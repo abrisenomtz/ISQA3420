@@ -42,8 +42,8 @@
 
 	1. Title: Analyze Source Code
 	2. Primary Actor: Corporate Developer
-	3. Goal in Context: The Corporate Developer is able to successfully check package/file information with 
-	the information in the SPDX Database. 
+	3. Goal in Context: The Corporate Developer is able to successfully check package/file information without 
+	submitting information to the SPDX Database. 
 	4. Stakeholders and Interests: 
 		- Corporate Developer: To receive a successful report of submitted source code.
 	5. Preconditions:
@@ -67,8 +67,8 @@
 		- A manifest containing license and vulnerability information is provided. 
 		- The proper policy document is available.
 	6. Main Success Scenario: The Corporate Manager is able to compare the documents and the type of licenses 
-	and amount of vulnerabilities are sufficient with "green lighting" the project.
+	and amount of vulnerabilities are sufficient with utilizing the project.
 	7. Failed End Conditions: A comparison is not able to be made between the documents and the project fails 
 	policy check.
 	8. Trigger: The Corporate Manager has collected license and vulnerability information and is interested in 
-	utilizing the project.
+	using the project.
